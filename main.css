@@ -1,0 +1,39 @@
+#wrapper {
+	width: 550px;
+	height: 430px;
+}
+
+#picBox {
+	position: absolute;
+	top: 180px;
+	left: 0;
+	width: 320px;
+	_width: 335px; /* if IE */
+	width: 335px/; /* if IE */
+	*width: 335px; /* if IE */
+	height: 320px;
+	margin: 5px;	
+}
+
+.pg8Hidden {
+	position: absolute;
+	top: 175px;
+	left: 300px;
+	width: 310px;
+	display: none;
+}
+
+.picButton {
+	position: relative;
+	float: left;
+	width: 159px;
+	height: 159px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.instructions {font-style: italic;}
+#nurseMom {background-image: url('doc.png');}
+#teen {background-image: url('sad.png');}
+#smokingDrinking {background-image: url('wine.png');}
+#couple {background-image: url('domestic.png');}

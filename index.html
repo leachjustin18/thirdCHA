@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8">
+        <title>Untitled</title>
+        <script src="media/jquery-1.8.min.js" type="text/javascript" charset="utf-8" ></script>
+        <script src="media/scripts.js" type="text/javascript" charset="utf-8" ></script>
+
+        <link rel="stylesheet" type="text/css" href="media/main.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript">
+    
+    $(function() {
+        $(".picButton").click(function() {
+            $(".pg8Hidden").hide();
+            $("#"+$(this).attr("label")).show();
+        });
+    });
+</script>
+ </head>
+    <body>
+
+<div id ="wrapper">
+  <div class="instructions">Click each photo to review situations which need the intervention of a social worker.</div>
+<div id="picBox">
+	<div class="picButton" id="nurseMom" label="1"></div>
+    <div class="picButton" id="teen" label="2"></div>
+    <div class="picButton" id="smokingDrinking" label="3"></div>
+    
+    <div class="picButton" id="couple" label="4"></div>
+</div>
+
+<div class="pg8Hidden" id="1">
+	<ul>
+    	<li>Teen pregnancy</li>
+        <li>Single parent</li>
+        <li>Poor prenatal care</li>
+        <li>Cognitive delays and people with a low level of cognitive functioning</li>
+        <li>Lack of a support system</li>
+    </ul>
+</div>
+
+<div class="pg8Hidden" id="2">
+	<ul>
+    	<li>Evidence of postpartum depression or suicidal&nbsp;ideations</li>
+        <li>Previous experience with a loss of a pregnancy, infant and/or child</li>
+        <li>Previous experience with a critically ill child</li>
+    </ul>
+</div>
+
+<div class="pg8Hidden" id="3">
+	<ul>
+    	<li>Evidence or suspicion of domestic violence, emotional abuse or neglect</li>
+        <li>Substance abuse</li>
+        <li>History of psychiatric illness</li>
+        <li>Unwanted pregnancy</li>
+        <li>Difficulty with attachment and bonding</li>
+    </ul>
+</div>
+
+<div class="pg8Hidden" id="4">
+	<ul>
+    	<li>Financial burdens</li>
+        <li>Marital problems</li>
+        <li>Other young children at home</li>
+        <li>Other children with physical or mental&nbsp;handicaps</li>
+    </ul>
+</div>
+
+</div>
+</body>
+</html>

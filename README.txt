@@ -1,0 +1,1 @@
+Created a simple program that listens for .click() to show information. Once you click one of the picuters it grabs the attr number of that area and displays related text.
